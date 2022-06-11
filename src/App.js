@@ -32,7 +32,7 @@ function App() {
           Hi👋, my name is Adxell, i'm student at universidad simon bolivar in
           the systems engineering program
         </p>
-        <p>This is my personal blog for my english class😎😎😎</p>
+        <p>This is my personal blog for my english class😎</p>
         <div className="container">
           <Section
             color={"#D3EBCD"}
