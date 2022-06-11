@@ -4,15 +4,7 @@ import Section from "./components/Section";
 
 function App() {
   let video = (
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/as_xQBfMVT4"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+    <iframe width="560" height="315" src="/video_ingles.mp4"></iframe>
   );
   const styleBackground = {
     color: "#000",
