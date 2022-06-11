@@ -4,7 +4,12 @@ import Section from "./components/Section";
 
 function App() {
   let video = (
-    <iframe width="560" height="315" src="/video_ingles.mp4"></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="/my_video_english_2.mp4"
+      controls
+    ></iframe>
   );
   const styleBackground = {
     color: "#000",
