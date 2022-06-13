@@ -14,8 +14,40 @@ function App() {
   const styleBackground = {
     color: "#000",
     background: "#fff",
+    height:"100vh"
 
   };
+  const contentEntry2 = (
+    <div>
+      <h5>How do people greet each other when they meet for the first time?</h5>
+      <p>
+        In Japan, the most common gesture when greeting is a bow. The depth,
+        length and style of bow depends on the social context, but many Japanese
+        are understanding and are likely to shake hands when meeting
+        non-Japanese people.
+      </p>
+      <strong>Exemple</strong>
+      <p>
+        If a Japanese has a business meeting in Amrica, he is likely to greet
+        with a handshake.
+      </p>
+      <hr style={{ color: "#fff" }} />
+      <h5>Are certain foods or beverages taboo?</h5>
+      <p>
+        People think that japanese eating Rabbits, dogs, cats or Dolphins , but
+        is forbidden these animals be eat in japan. Even if a person say about
+        eating dolphins to japanese they will never talk with that person again
+      </p>
+      <hr style={{ color: "#fff" }} />
+      <h5>What are the customs about punctuality?</h5>
+      <p>
+        The Japanese are also very punctual. People are always anxious not to be
+        late to their appointments. In general, they arrive 10 or 15 minutes
+        before the scheduled time. Therefore, time regulates the life of the
+        modern Japanese citizen.
+      </p>
+    </div>
+  );
   return (
     <div className="App" style={styleBackground}>
       <div
@@ -37,7 +69,12 @@ function App() {
             content={video}
             day={"1"}
           />
-          <Section color={"#F15412"} title={""} content={""} day={"2"} />
+          <Section
+            color={"#F15412"}
+            title={"Japan"}
+            content={contentEntry2}
+            day={"2"}
+          />
           <Section color={"#FAF4B7"} title={""} content={""} day={"3"} />
         </div>
       </div>
