@@ -48,6 +48,15 @@ function App() {
       </p>
     </div>
   );
+  const contentEntry3 = (
+    <div>
+      <p>
+        it's different because before people was often eat with his parents but
+        now people prefer eat watching video o stream, looking this is no the
+        same that before
+      </p>
+    </div>
+  );
   return (
     <div className="App" style={styleBackground}>
       <div
