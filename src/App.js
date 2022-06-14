@@ -84,7 +84,7 @@ function App() {
             content={contentEntry2}
             day={"2"}
           />
-          <Section color={"#FAF4B7"} title={""} content={""} day={"3"} />
+          <Section color={"#FAF4B7"} title={"Table manners"} content={contentEntry3} day={"3"} />
         </div>
       </div>
     </div>
