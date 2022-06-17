@@ -306,6 +306,18 @@ function App() {
       </div>
     </>
   );
+  const contentEntry5 = (
+    <>
+      <h3></h3>
+      <div className="container">
+        I think the best ways to keep customers is always improve your services,
+        because if you aren't improving the services, all customers are going to
+        leave to other companies. That represents losses in the company, that can
+        cause job losses, so if you have good administration, it is the main
+        thing for control and improvement.
+      </div>
+    </>
+  );
   return (
     <div className="App" style={styleBackground}>
       <div
@@ -345,16 +357,11 @@ function App() {
             content={contentEntry4}
             day={"4"}
           />
+          <Section color={"#FFFFFF"} title={"Comic"} day={"5"} />
           <Section
-            color={"#3AB0FF"}
-            title={"Medicine"}
-            
-            day={"5"}
-          />
-          <Section
-            color={"#3AB0FF"}
-            title={"Medicine"}
-            
+            color={"#A0D995"}
+            title={"Best ways for a business"}
+            content={contentEntry5}
             day={"6"}
           />
         </div>
