@@ -345,6 +345,18 @@ function App() {
             content={contentEntry4}
             day={"4"}
           />
+          <Section
+            color={"#3AB0FF"}
+            title={"Medicine"}
+            
+            day={"5"}
+          />
+          <Section
+            color={"#3AB0FF"}
+            title={"Medicine"}
+            
+            day={"6"}
+          />
         </div>
       </div>
     </div>
